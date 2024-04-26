@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+}
+
+nav{
+    position: fixed;
+    height: 75px;
+    width: 100%;
+    padding: 10px 8%;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+   background-color: whitesmoke;
+}
+nav img{
+    width: 130px;
+    margin-left: 60px;
+    mix-blend-mode:multiply;
+}
+nav ul{
+    flex: 1;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    padding: 5px 15px;
+}
+nav ul li a{
+    color: black;
+    font-size: medium;
+    font-weight: 600;
+}
+
+li a:hover{
+    color: rgb(217, 28, 28) ;
+    transition: 0.3s;
+}
+
+
+.INTERNSHIP{
+    color: hsl(0, 0%, 94%);
+    font-size: medium;
+    font-weight: 600;
+    background-color: rgb(217, 28, 28);
+    height: 75px;
+    padding-top: 28px;
+    margin-right: 45px;
+}
+
+.section{
+    position: relative;
+    background-image: url(main.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 735px;
+    display: flex;
+    justify-content:right;
+}
+.rigt{
+    width: 30%;
+    height: 200px;
+    margin-top: 320px;
+    margin-right: 55px;
+}
+.h5{
+    font-size: 03rem;
+    color: hsl(0, 0%, 94%);
+    font-family: "Nunito", sans-serif;
+}
+.h4{
+    font-family: "Nunito", sans-serif;
+    color: hsl(0, 0%, 94%);
+    padding-right: 10px;
+    padding-top: 10px;
+    font-size: xx-large;
+}
